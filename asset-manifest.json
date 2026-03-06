@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/static/js/main.0aaa4980.js",
+    "static/media/LOGO RPA.png": "/static/media/LOGO RPA.0e5c4a6f0c02a2b0e17d.png",
+    "index.html": "/index.html",
+    "main.0aaa4980.js.map": "/static/js/main.0aaa4980.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.0aaa4980.js"
+  ]
+}
