@@ -1,0 +1,10 @@
+{
+  "name": "workflow-rpa-demo-root",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend start",
+    "frontend:build": "npm --prefix frontend run build",
+    "frontend:start": "npm --prefix frontend start"
+  }
+}

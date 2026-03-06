@@ -1,0 +1,7 @@
+{
+  "javascript.validate.excludedFiles": [
+    "**/node_modules/**",
+    "**/build/**"
+  ],
+  "typescript.tsserver.experimental.enableProjectDiagnostics": false
+}
