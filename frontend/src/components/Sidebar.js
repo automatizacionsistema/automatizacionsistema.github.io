@@ -5,16 +5,22 @@ function Sidebar() {
   return (
     <aside className="sidebar">
       <div>
-        <div className="sidebar-brand">⚙ FlowRPA</div>
+        <div className="sidebar-brand">
+          <span className="brand-logo">▣</span>
+          <span>FlowRPA</span>
+        </div>
         <nav className="sidebar-nav">
           <NavLink to="/dashboard" className={({ isActive }) => `sidebar-item ${isActive ? "active" : ""}`}>
+            <span className="sidebar-icon">◫</span>
             Dashboard
           </NavLink>
           <NavLink to="/workflows" className={({ isActive }) => `sidebar-item ${isActive ? "active" : ""}`}>
+            <span className="sidebar-icon">◌</span>
             Workflows
           </NavLink>
           <Link to="/workflow-builder" className="sidebar-create">
-            ▷ Crear Workflow
+            <span className="sidebar-icon">▷</span>
+            Crear Workflow
           </Link>
         </nav>
       </div>

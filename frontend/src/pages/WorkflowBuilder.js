@@ -49,9 +49,9 @@ function WorkflowBuilder() {
           </div>
         </div>
         <div className="builder-actions">
-          <button className="btn-outline">⚙ Configuración</button>
-          <button className="btn-outline">💾 Guardar</button>
-          <button className="btn-success">▷ Ejecutar</button>
+          <button className="btn-outline">⚙&nbsp; Configuración</button>
+          <button className="btn-outline">⎙&nbsp; Guardar</button>
+          <button className="btn-success">▷&nbsp; Ejecutar</button>
         </div>
       </div>
 
